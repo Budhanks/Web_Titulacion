@@ -31,3 +31,14 @@
     border-radius: 5px;
     padding: 7px 90px;
 }
+
+.brand-logo, .container-subtitle {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}

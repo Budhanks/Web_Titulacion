@@ -7,8 +7,9 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./css/styleMaterialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <nav role="navigation">
@@ -41,14 +42,14 @@
   </div>
 
 
-  <div class="container">
+  <div class="container" style="width: 100%;">
     <h5 class="center">Requisitos establecidos en el Plan De Estudios y en las Reglas De Operación</h5>
-    <div class="section" style="display: flex; justify-content: space-between;">
+    <div class="section sectRequisitos">
 
       <!--   Card Section   -->
-      <div style="width: 40%; margin: 50px;">
+      <div style="width: 40%; margin: 50px 10px 50px 10px;">
         <div class="col s12 m5">
-          <div class="card-panel teal">
+          <div class="card-panel cardPlanEstudios colorCardPlanEstudiosLados">
             <h5>Plan 80 y 82</h5>
             <p>Requisitos</p>
             <ul>
@@ -58,7 +59,7 @@
               <li>Cuatro</li>
             </ul>
             <a href="">
-              <button>Modos de titulación</button>
+              <button class="botonLateral">Modos de titulación</button>
             </a>
           </div>
         </div>
@@ -66,7 +67,7 @@
 
       <div style="width: 40%; margin: 50px;">
         <div class="col s12 m5">
-          <div class="card-panel teal">
+          <div class="card-panel cardPlanEstudios colorCardPlanEstudiosMedio">
             <h5>Plan 1279</h5>
             <p>Requisitos</p>
             <ul>
@@ -76,15 +77,15 @@
               <li>Cuatro</li>
             </ul>
             <a href="">
-              <button>Modos de titulación</button>
+              <button class="botonMedio">Modos de titulación</button>
             </a>
           </div>
         </div>
       </div>
 
-      <div style="width: 40%; margin: 50px;">
+      <div style="width: 40%; margin: 50px 10px 50px 10px;">
         <div class="col s12 m5">
-          <div class="card-panel teal">
+          <div class="card-panel cardPlanEstudios colorCardPlanEstudiosLados">
             <h5>Plan 2119</h5>
             <p>Requisitos</p>
             <ul>
@@ -93,8 +94,8 @@
               <li>Tres</li>
               <li>Cuatro</li>
             </ul>
-            <a href="">
-              <button>Modos de titulación</button>
+            <a href="" type="button">
+              <button class="botonLateral">Modos de titulación</button>
             </a>
           </div>
         </div>
@@ -104,41 +105,15 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
+  <div class="parallax-container valign-wrapper" style="background-color: gray;">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h2 class="header col s12 light">Formato De Registro</h2>
         </div>
       </div>
     </div>
     <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
   <footer class="page-footer">
@@ -169,8 +144,8 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="../js/materialize.js"></script>
-  <script src="../js/init.js"></script>
+  <script src="./js/materialize.js"></script>
+  <script src="./js/init.js"></script>
 
   </body>
 </html>

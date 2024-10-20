@@ -1,7 +1,12 @@
 .sectRequisitos{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
+}
+
+.sizeCardPlanEstudios{
+    width: 20%; margin: 30px;
 }
 
 .cardPlanEstudios{
@@ -20,16 +25,29 @@
     background-color: rgb(44,44,44);
 }
 
-.botonLateral {
+.botonCardLateral{
     background-color: rgb(44,44,44);
-    border-radius: 5px;
-    padding: 7px 90px;
 }
 
-.botonMedio {
+.botonCardLateral:hover{
+    background-color: gray;
+}
+
+.botonCardLateral:active{
+    background-color: rgb(44,44,44);
+}
+/**/
+.botonCardMedio{
+    flex-shrink: 3;
     background-color: rgb(205,205,205);
-    border-radius: 5px;
-    padding: 7px 90px;
+}
+
+.botonCardMedio:hover{
+    background-color: rgb(88, 87, 87);
+}
+
+.botonCardMedio:active{
+    background-color: rgb(205,205,205);
 }
 
 .brand-logo, .container-subtitle {
